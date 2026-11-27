@@ -25,6 +25,7 @@ button, input, select, textarea { font: inherit; }
 .header { background: #031426; color: #fff; }
 .header-main { min-height: 86px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand { display: flex; flex-direction: column; width: 220px; color: #fff; line-height: 1; flex-shrink: 0; }
+.brand img { width: 220px;max-width: 100%; height: auto; display: block; object-fit: contain;}
 .brand-small { font-size: 9px; font-style: italic; letter-spacing: 1px; margin-left: 8px; }
 .brand-name { font-size: 34px; font-weight: 800; font-style: italic; letter-spacing: -2px; }
 .brand-name span { color: #12b9ef; }
@@ -186,3 +187,9 @@ button, input, select, textarea { font: inherit; }
     .filter-row { align-items: flex-start; flex-direction: column; }
     .content-card, .form-card, .auth-card { padding: 22px; }
 }
+
+/* LOGO OFICIAL VIPCELL */
+.brand img { width: 220px; max-width: 100%; height: auto; display: block;object-fit: contain;}
+
+/* LOGO DO RODAPÉ */
+.footer-brand .brand img { width: 240px; max-width: 100%; height: auto;}
